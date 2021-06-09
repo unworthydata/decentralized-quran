@@ -1,0 +1,202 @@
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("fonts/JetBrainsMono-ExtraLight.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("fonts/JetBrainsMono-ExtraBoldItalic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: rgb(241, 241, 245);
+  font-size: 62.5%;
+}
+
+h1,
+h2,
+h3,
+.md5 {
+  font-family: "Jetbrains Mono", monospace;
+}
+
+h1 {
+  font-size: 4.3rem;
+  line-height: 1;
+  font-weight: 200;
+  color: rgb(241, 241, 255);
+  text-shadow: 5px 5px 7px black;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+}
+
+h3 {
+  color: #333;
+  font-weight: 500;
+}
+
+article {
+  width: 50ch;
+}
+
+.header {
+  background: rgb(0, 4, 19);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 4, 19, 1) 13%,
+    rgba(4, 8, 57, 1) 85%,
+    rgba(241, 241, 245, 1) 100%
+  );
+  padding-bottom: 10rem;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 3vh;
+}
+
+.main {
+  margin-top: 6rem;
+  padding: 2rem;
+}
+
+.purple-btn {
+  background: rgb(114, 16, 95);
+  border: 0.1rem solid rgb(114, 16, 95) !important;
+}
+
+.gold-btn {
+  background: rgb(232, 220, 183);
+  color: rgb(232, 220, 183) !important;
+  border-color: rgb(232, 220, 183);
+}
+
+.content1-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 4rem;
+}
+
+.torrent-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 35px;
+}
+
+.torrent-container * {
+  margin: 0;
+}
+
+.footer {
+  padding: 8rem 0 1rem;
+  background: rgb(0, 4, 19);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 4, 19, 1) 13%,
+    rgba(4, 8, 57, 1) 85%,
+    rgba(241, 241, 245, 1) 100%
+  );
+}
+
+.footer-heading {
+  color: rgb(241, 241, 255);
+}
+
+.icon {
+  max-width: 2rem;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-right * {
+  padding: 0;
+  margin: 1rem;
+}
+
+.link {
+  color: rgba(241, 241, 245, 1) !important;
+}
+
+.icon {
+  margin-bottom: 1rem;
+}
+
+.about-section article {
+  width: 38ch;
+}
+
+.download-cluster {
+  margin: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  margin: 5px;
+}
+
+.md5 {
+  padding-top: 20px;
+  font-size: 1rem;
+}
+
+#contact,
+#contact * {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact {
+  margin-bottom: 35px;
+}
+
+#language,
+#language:focus {
+  color: rgb(177, 146, 54) !important;
+  border: none;
+  background-image: none;
+  color: rgba(241, 241, 245, 1);
+  padding-bottom: 2px;
+  width: 25px;
+}
+
+#logo {
+  max-width: 6rem;
+  justify-self: flex-start;
+}
+
+#highlight {
+  color: rgb(114, 16, 95);
+  font-weight: 600;
+  font-style: italic;
+}
+
+#magnet-icon {
+  margin-left: 0.8rem;
+}
