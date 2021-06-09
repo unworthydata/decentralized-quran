@@ -45,10 +45,6 @@ h3 {
   font-weight: 500;
 }
 
-article {
-  width: 50ch;
-}
-
 .header {
   background: rgb(0, 4, 19);
   background: linear-gradient(
@@ -182,7 +178,7 @@ article {
   border: none;
   background-image: none;
   color: rgba(241, 241, 245, 1);
-  padding-bottom: 2px;
+  padding-bottom: 0.2rem;
   width: 25px;
 }
 
