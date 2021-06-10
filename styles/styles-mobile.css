@@ -21,7 +21,8 @@ html {
 h1,
 h2,
 h3,
-.md5 {
+.md5,
+#recommended {
   font-family: "Jetbrains Mono", monospace;
 }
 
@@ -136,11 +137,11 @@ h3 {
 }
 
 .icon {
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
 }
 
 .about-section article {
-  width: 38ch;
+  width: 37.5ch;
 }
 
 .download-cluster {
@@ -158,6 +159,7 @@ h3 {
 .md5 {
   padding-top: 20px;
   font-size: 1rem;
+  text-align: center;
 }
 
 #contact,
@@ -170,6 +172,10 @@ h3 {
 
 #contact {
   margin-bottom: 35px;
+}
+
+#contact .link {
+  margin-bottom: 1.8rem;
 }
 
 #language,
@@ -195,4 +201,11 @@ h3 {
 
 #magnet-icon {
   margin-left: 0.8rem;
+}
+
+#recommended {
+  color: rgb(114, 16, 95);
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 10px 0;
 }

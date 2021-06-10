@@ -1,4 +1,4 @@
-@media screen and (min-width: 930px) {
+@media screen and (min-width: 930px) and (min-height: 700px) {
   html {
     overflow-x: hidden;
     font-size: 100%;
@@ -50,7 +50,7 @@
   }
 
   .about-section article {
-    width: 40ch;
+    width: 45ch;
     margin: 30px;
   }
 
@@ -102,6 +102,10 @@
     margin: 0;
   }
 
+  .recommended-download {
+    margin-top: 108px;
+  }
+
   #contact {
     margin-bottom: 0;
     padding-top: 40px;
@@ -110,10 +114,5 @@
   #language,
   #language:focus {
     font-size: 1.5rem;
-  }
-
-  #network {
-    visibility: visible;
-    max-width: 60%;
   }
 }
