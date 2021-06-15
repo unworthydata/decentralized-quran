@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Decentralized Quran</title>
-    <link rel="shortcut icon" href="images/quran.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="../images/quran.svg" type="image/x-icon" />
     <link rel="stylesheet" href="styles/normalise.css" />
     <link
       rel="stylesheet"
@@ -15,8 +15,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-    <link rel="stylesheet" href="styles/styles-mobile.css" />
-    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="../styles/styles-mobile.css" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="../styles/styles-tr.css" />
   </head>
   <body>
     <div class="header">
@@ -29,10 +30,14 @@
         <span class="header-right">
           <a href="#about" class="button button-clear link">About</a>
           <a href="#contact" class="button button-clear link">Contact</a>
-          <select name="langauge" id="language" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
-            <option value="">🇬🇧</option>
-            <option value="ar/index.html">🇸🇦</option>
-            <option value="tr/index.html">🇹🇷</option>
+          <select
+            name="langauge"
+            id="language"
+            onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);"
+          >
+            <option value="">🇹🇷</option>
+            <option value="../index.html">🇬🇧</option>
+            <option value="../ar/index.html">🇸🇦</option>
           </select>
         </span>
       </div>
@@ -54,7 +59,7 @@
     <div class="container downloads">
       <span class="download-cluster recommended-download">
         <p id="recommended">(Recommended)</p>
-        <h2>Quran simple<br />(4.2 MB)</h2>
+        <h2>Quran classic<br />(4.2 MB)</h2>
         <a
           href="https://link.eu1.storjshare.io/jvinypy6zor5nbp6c4jvwc5czk7a/quran%2Fquran-regular.pdf?download"
           class="button purple-btn"
@@ -169,25 +174,16 @@
       <div class="container credit">
         <p>
           Photo by
-          <a href="https://unsplash.com/@ashkfor121?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+          <a
+            href="https://unsplash.com/@ashkfor121?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >
             Ashkan Forouzani
           </a>
           on
           <a href="https://unsplash.com/">Unsplash</a>.
         </p>
-        <p>
-          Quran text by <a href="https://tanzil.net/">Tanzil</a>.
-        </p>
-        <p>
-            Icons made by 
-            <a href="https://www.freepik.com" title="Freepik">
-              Freepik
-            </a> 
-            from
-            <a href="https://www.flaticon.com/" title="Flaticon">
-              www.flaticon.com
-            </a>
-        </p>
+        <p>Quran text by <a href="https://tanzil.net/">Tanzil</a>.</p>
       </div>
+    </div>
   </body>
 </html>

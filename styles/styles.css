@@ -1,4 +1,4 @@
-@media screen and (min-width: 930px) and (min-height: 700px) {
+@media screen and (min-width: 1100px) and (min-height: 700px) {
   html {
     overflow-x: hidden;
     font-size: 100%;
@@ -46,7 +46,7 @@
   }
 
   .download-cluster {
-    margin: 150px;
+    margin: 6vw;
   }
 
   .about-section article {
