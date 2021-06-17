@@ -24,12 +24,19 @@ article,
   text-align: right;
 }
 
+.downloads,
+.about-section {
+  flex-direction: row-reverse;
+}
+
 #highlight {
   font-weight: 800;
   font-style: normal;
 }
 
-.downloads,
-.about-section {
-  flex-direction: row-reverse;
+@media screen and (min-width: 1100px) and (min-height: 700px) {
+  .download-cluster {
+      margin-left: 4vw;
+      margin-right: 4vw;
+  }
 }
